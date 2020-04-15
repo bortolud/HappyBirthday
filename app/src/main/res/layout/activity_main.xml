@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".MainActivity">
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/hubert_pic"
+        android:scaleType="centerCrop"
+        />
+    <TextView
+        android:paddingTop="16dp"
+        android:paddingLeft="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Happy Birthday Hubert!"
+        android:layout_alignLeft="@id/image"
+        android:layout_alignTop="@id/image"
+        android:textSize="48sp"
+        android:textColor="#FF0000"
+        />
+    <TextView
+        android:paddingBottom="16dp"
+        android:paddingRight="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="From: Daniel"
+        android:layout_alignRight="@id/image"
+        android:layout_alignBottom="@id/image"
+        android:textSize="24sp"
+        android:textColor="#000000"
+        />
+
+</RelativeLayout>
